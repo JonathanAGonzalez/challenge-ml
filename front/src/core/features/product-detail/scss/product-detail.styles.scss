@@ -1,0 +1,52 @@
+@import '/src/core/styles/breakpoints.styles';
+
+.product-detail {
+  &--wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+    @media (width >= $mobile) {
+      flex-direction: row;
+    }
+  }
+
+  &__information {
+    &--wrapper {
+      margin: 0 auto;
+      max-width: fit-content;
+      text-align: center;
+      h2 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        max-width: 310px;
+        margin-bottom: 0.5rem;
+      }
+      h3 {
+        font-size: 1.7rem;
+        max-width: 370px;
+        margin-bottom: 2rem;
+      }
+
+      @media (width >= $mobile) {
+        flex-direction: row;
+        text-align: left;
+      }
+    }
+    &--condition {
+      color: #8b8b8b;
+      font-size: 0.8rem;
+    }
+    &--description {
+      margin-top: 2rem;
+      max-width: 670px;
+      h3 {
+        font-size: 2rem;
+        margin: 1rem 0;
+      }
+      p {
+        color: #8b8b8b;
+      }
+    }
+  }
+}
