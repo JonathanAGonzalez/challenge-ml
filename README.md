@@ -93,7 +93,7 @@ Usabilidad, SEO, Performance y Escalabilidad
     Performance: La aplicación está optimizada para tiempos de carga rápidos y eficiente manejo de estado.
     Escalabilidad: La estructura del proyecto permite añadir nuevas funcionalidades y componentes en el futuro sin afectar la base existente.
 
-Instalación
+# Instalación
 
 ### !Requerido:
 - **Environment necesarias:**
