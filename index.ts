@@ -1,8 +1,10 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
+import dot from 'dotenv';
 
 import itemsRouter from './routes/items.route';
 
+dot.config();
 const app = express();
 const PORT = process.env.PORT || 8080;
 
